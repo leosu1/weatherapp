@@ -1,0 +1,140 @@
+h1{
+    text-align: end;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+body{
+    font-family: Arial;
+}
+.wrapper{
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+.med-img{
+    max-width: 48px;
+    max-height: 48px;
+    box-sizing: border-box;
+}
+.lg-img{
+    max-width: 64px;
+    max-height: 64px;
+    box-sizing: border-box;
+}
+.lg-font{
+    font-size: 1.25rem;
+}
+.xl-font{
+    font-size: 1.35rem;
+}
+.sm-font{
+    font-size: 0.9rem;
+}
+.section-ttl{
+    text-align: start;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    font-weight:600 ;
+}
+.main-section-ttl{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight:700 ;
+}
+.section-sub-ttl{
+    text-align: start;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight:500;
+}
+.text-end{
+    text-align: end;
+}
+.text-center{
+    text-align: center;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 0.4rem;
+    margin-bottom: 0.5rem;
+    transition-duration: 200ms;
+    border-radius: 15px;
+}
+.margined{
+    margin-inline: 2rem;
+}
+
+input{
+    padding: 0.75rem;
+    border: transparent;
+    border-radius: 15px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    transition-duration: 150ms;
+}
+input:focus{
+    outline: 2px yellow;
+    outline: none;
+    background-color: white;
+}
+.btn{
+    border: transparent;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: white;
+    color: rgb(2, 138, 172);   
+    padding-inline: 0.75rem;
+    padding-block: 1rem;
+    font-weight: 600;
+    transition-duration: 150ms;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(236, 245, 248);
+    border: white;
+}
+.btn:active{
+    background-color: rgba(43, 203, 243, 0.37);
+    color: white;
+    border: white;
+    transition-duration: 0;
+}
+
+.section{
+    border-radius: 5px;
+    background-color: rgba(43, 203, 243, 0.178);
+    padding: 0.75rem;
+    width: 70%;
+    max-width: 50rem;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.116);
+}
+.help-text{
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.753);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.middle{
+    width: fit-content;
+    margin: auto;
+}
+.line{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 75%;
+}
